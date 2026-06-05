@@ -1,0 +1,23 @@
+# Create an instance of the parallelogram class and call its methods to
+# demonstrate functionality
+# (x0=2, y0=2, length=9, width=4, angle=pi/6 : 30 degrees)
+parallelogram1 = Parallelogram(2, 2, 9, 4, pi/6)
+parallelogram1.description()
+print('the superficy of the parallelogram is:', parallelogram1.superficy)
+parallelogram1.draw_shape()
+
+# Create an instance of the Rectangle class and call its methods to
+# demonstrate functionality
+rectangle1 = Rectangle(1, 1, 10, 4)
+rectangle1.description()
+rectangle1.print_superficy()
+print('the superficy of the rectangle is:', rectangle1.superficy)
+rectangle1.draw_shape()
+
+# Create an instance of the Square class and call its methods to
+# demonstrate functionality
+square1 = Square(3, 3, 3)
+square1.description()
+square1.print_superficy()
+print('the superficy of the square is:', square1.superficy)
+square1.draw_shape()
